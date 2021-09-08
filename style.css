@@ -1,0 +1,30 @@
+#body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  height: 300px;
+  width: 100%;
+}
+
+#countButton {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#lettersDiv {
+  background-color: gray;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 400px) {
+  .input {
+		max-width: 500px;
+  
+}
