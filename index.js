@@ -18,7 +18,6 @@ button.addEventListener("click", function() {
       span.innerText = textContent; 
       const letters = document.getElementById("lettersDiv");
       letters.appendChild(span); 
-      words = typedText.split(/\s/);
     }
 });
 
